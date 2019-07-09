@@ -1,1 +1,71 @@
 
+ /* Start Body */
+Body {
+    background-color: rgb(255, 255, 255);
+    colour: #24292e;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16 px;
+    line-height: 1.5 em;
+    margin: 15px;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-violet{
+    background-color: violet
+}
+.bg-gray{
+    background-color: gray
+}
+/* End Debug */
+
+/* start container */
+.container{
+    margin:10 px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full{
+    margin: 10 px auto;
+    overflow: auto;
+    width: auto;
+}
+/* end container */
+
+/* start Logo */
+.logo {
+    text-align: left;
+}
+/* end Logo */
+
+
+/* start jumbotron */
+.menu{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(245, 28, 28);
+}
+
+
+
+/* end menu */
